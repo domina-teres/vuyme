@@ -1,0 +1,22 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Vuymer Hub")
+
+local serv = win:Server("Scripts", "")
+
+local btns = serv:Channel("Reanimate Scripts")
+
+
+
+btns:Button("Fe Cop Reanimate", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/domina-teres/scripts/main/Fe%20cop"))()
+end)
+btns:Button("Trash Can Reanimate", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/domina-teres/scripts/main/Trash%20Can"))()
+end)
+btns:Button("Sword Reanimate", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uibCtnDA"))()
+end)
+btns:Button("Fe Sniper Reanimate", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/domina-teres/scripts/main/Fe%20Sniper"))()
+end)
